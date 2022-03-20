@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/robotobold"
+        android:text="Today’s Share-J"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputWrite"
+        android:layout_width="305dp"
+        android:layout_height="371dp"
+        android:gravity="top"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="Write"
+        android:inputType="textPersonName"
+        android:padding="10sp"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="save"
+        app:layout_constraintEnd_toEndOf="@+id/inputWrite"
+        app:layout_constraintStart_toStartOf="@+id/inputWrite"
+        app:layout_constraintTop_toBottomOf="@+id/inputWrite" />
+</androidx.constraintlayout.widget.ConstraintLayout>

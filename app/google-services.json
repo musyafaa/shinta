@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "28237524694",
+    "project_id": "jiff-9fa68",
+    "storage_bucket": "jiff-9fa68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28237524694:android:b90113f15d22e96636a377",
+        "android_client_info": {
+          "package_name": "com.example.jif"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "28237524694-jl5p1lro1juvrmioaum98turm7mbonl4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX-eM5rTUklGam-MRN5g2aivGPG6ko8E4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "28237524694-jl5p1lro1juvrmioaum98turm7mbonl4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
